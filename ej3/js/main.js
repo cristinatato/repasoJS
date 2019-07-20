@@ -1,4 +1,4 @@
 'use strict';
-const h1 = document.querySelector ('h1');
+const text = document.querySelector ('.text');
 
-h1.innerHTML = ('Hola mundo');
+text.innerHTML = text.innerHTML + ' ' + 'Mundo';

@@ -1,4 +1,5 @@
 'use strict';
-const h1 = document.querySelector ('h1');
 
-h1.innerHTML = ('Hola mundo');
+const button = document.querySelector ('.go2');
+
+button.classList.add('hidden');

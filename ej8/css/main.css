@@ -1,0 +1,9 @@
+.go, .go2 {
+    width: 100px;
+    height: 50px;
+    background-color: aquamarine;
+}
+
+.hidden {
+    opacity: 0.3;
+}

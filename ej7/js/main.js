@@ -1,4 +1,9 @@
 'use strict';
-const h1 = document.querySelector ('h1');
 
-h1.innerHTML = ('Hola mundo');
+const list = document.querySelector ('.list');
+
+list.innerHTML = `
+<li>1</li>
+<li>2</li>
+<li>3</li>
+`;

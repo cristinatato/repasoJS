@@ -1,4 +1,12 @@
 'use strict';
-const h1 = document.querySelector ('h1');
 
-h1.innerHTML = ('Hola mundo');
+const list = document.querySelector ('.list');
+let name1 = ('Cristina Tato')
+name1 = ('Cristina González');
+
+list.innerHTML = `
+<li> ${name1}</li>
+`;
+
+
+
